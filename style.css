@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:calibri, "segoe ui", arial, tahoma, sans-serif;
+    }
+
+body{
+    background-color:#aedefd;
+    }
+
+#wrapper{
+    width : 780px;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+header{
+    background: repeat-x #f8f5f5;
+    height : 140px;
+    width : 500%;
+    padding:4px;
+    margin : 10px 0;
+    overflow : hidden;
+    }
+header img{ width: 500px; height:100px ; }
+
+#menu-utama{
+    margin-top:3px;
+    list-style:none;
+    }
+
+#menu-utama li{
+    float:left;
+    padding:10px 20px;
+    border-right:1px solid #000000;
+    }
+
+#menu-utama li a{
+    color : #110909;
+    text-decoration:none;
+     }
+
+form{
+    float:left;
+    margin-top:10px;
+    margin-right: 100px;
+    margin-left: 20px;
+    }
+
+form input{
+    float: right;
+    border:none;
+    height:20px;
+}
+
+#daftar-artikel{
+    width:470px;
+    float:left
+    }
+
+article{
+    background:#fff4f4;
+    padding:10px;
+    margin-bottom:20px;
+    overflow:hidden;
+    }
+
+article img{
+    float:left;
+    margin-right:10px;
+    width:200px;
+    height:165px
+    }
+
+article b{
+    color:#616060;
+    background:#DDDDDD;
+    padding:3px;
+    font-size:12px;
+    font-weight:bold;
+    margin-right:10px;
+    }
+
+article p{
+    margin:10px 0;
+    }
+
+article a{
+    display:block;
+    text-align:right;
+    color:#636363;
+    }
+
+#sidebar{
+    width:270px;
+    float:right;
+    }
+
+#sidebar h2{
+    font-size:18px;
+    margin:10px 0;
+    }
+
+#sidebar p{
+    line-height:20px;
+    color : #636363;
+    }
+
+#sidebar ul li a{
+    color:#636363;
+    text-decoration:none;
+    }
+
+footer{
+    clear:both;
+    margin:20px 0;
+    text-align:center;
+    background-color: #f0f0f0;
+    padding:5px;
+    color:#555555;
+    }
